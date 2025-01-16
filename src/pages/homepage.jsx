@@ -8,14 +8,6 @@ import { Typewriter, Cursor } from "react-simple-typewriter"
 import { motion } from 'framer-motion'
 
 
-
-
-
-
-
-
-
-
 function homepage() {
 
     return (
@@ -58,7 +50,7 @@ function homepage() {
               transition={{ duration: .8, ease: 'linear', delay: .7 }}
               viewport={{ once: true }}
                       
-                      class="flex flex-col justify-start items-start ml-2 mt-3 gap-y-3 py-2 border-l-2 border-white border-opacity-50">
+                      class="flex flex-col font-[Inter] justify-start items-start ml-2 mt-3 gap-y-3 py-2 border-l-2 border-white border-opacity-50">
                         <div className="flex justify-start items-center text-start">
                         <img src={loc} alt="location" className="ml-4 w-6 sm:w-auto" />
                         <span className="pl-3 text-xs md:text-base ">Brgy. Guimbala-on, SIlay City, Negros Occidental</span>
@@ -77,14 +69,14 @@ function homepage() {
               transition={{ duration: .8, ease: 'linear', delay: .9 }}
               viewport={{ once: true }}
                       
-                      className="mt-2 ml-2 pt-4 flex justify-start items-start">I create this web portfolio using ReactJS and TailwindCSS.</motion.p>
+                      className="mt-2 ml-2 pt-4 flex justify-start items-start font-[Inter]">I create this web portfolio using ReactJS and TailwindCSS.</motion.p>
                   <div className="pt-4 mt-2 text-white">
                    <motion.a initial={{opacity: 0, x: 0 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: .8, ease: 'linear', delay: 1.1 }}
               viewport={{ once: true }}
                    
-                   download={'https://i.ibb.co/HNBbGtJ/Larida-James-Resume.jpg'} href="" className='bg-blue-800 mt-4 p-3 w-36 rounded-full text-center text-sm font-semibold hover:bg-blue-900 duration-200'> Download CV</motion.a>
+                   download={'https://i.ibb.co/HNBbGtJ/Larida-James-Resume.jpg'} href="" className='bg-blue-800 mt-4 p-3 w-36 rounded-full text-center text-sm font-[Inter] font-semibold hover:bg-blue-900 duration-200'> Download CV</motion.a>
                       </div>
               </div>
              <motion.div initial={{ opacity: 0, x: 30 }}
