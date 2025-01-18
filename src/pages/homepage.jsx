@@ -4,6 +4,7 @@ import hmbg from '../img/home bg.jpg'
 import loc from '../img/location.png'
 import email from '../img/email.png'
 import phone from '../img/phone.png'
+import Resume from '../img/Larida, James (Resume).jpg'
 import { Typewriter, Cursor } from "react-simple-typewriter"
 import { motion } from 'framer-motion'
 
@@ -76,7 +77,7 @@ function homepage() {
               transition={{ duration: .8, ease: 'linear', delay: 1.1 }}
               viewport={{ once: true }}
                    
-                   download={'https://i.ibb.co/HNBbGtJ/Larida-James-Resume.jpg'} href="" className='bg-blue-800 mt-4 p-3 w-36 rounded-full text-center text-sm font-[Inter] font-semibold hover:bg-blue-900 duration-200'> Download CV</motion.a>
+                   download href={Resume} className='bg-blue-800 mt-4 p-3 w-36 rounded-full text-center text-sm font-[Inter] font-semibold hover:bg-blue-900 duration-200'> Download CV</motion.a>
                       </div>
               </div>
              <motion.div initial={{ opacity: 0, x: 30 }}

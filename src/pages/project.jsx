@@ -1,9 +1,10 @@
 import React from 'react'
 import prbg from '../img/project background.jpg'
 import { useState } from 'react';
+import Education from './education';
 import Carousel from './carouseldesigns';
 import { motion } from 'framer-motion';
-
+import Cert from '../img/Project Manager Cert.jpg'
 
 const project = () => {
 
@@ -52,7 +53,7 @@ const project = () => {
               viewport={{ once: true }}
       
       className=' flex flex-col justify-center items-center text-center w-full max-w-screen-lg mx-auto pt-10 '>
-          <h1 className='font-black text-white text-4xl md:text-5xl xl:text-6xl font-[Inter]'>Projects</h1>
+          <h1 className='font-black text-white text-4xl md:text-5xl xl:text-6xl'>Projects</h1>
           <p className='text-sm lg:text-xl font-semibold text-center py-4 px-12 lg:px-28 font-[Poppins]'>"Bringing ideas to life through projects is my passion. Each reflects purpose and dedication."</p>
         </motion.div>
         <div className='grid grid-cols-1 gap-7 md:py-6 px-10 sm:px-28 sm:grid-cols-1 lg:grid-cols-3'>
@@ -74,8 +75,8 @@ const project = () => {
           />
           <div className='absolute inset-0 flex items-center justify-center bg-gradient-to-t from-blue-950 to-black bg-opacity-25 opacity-0 hover:opacity-100 transition-opacity duration-300 p-4 text-center rounded-lg'>
             <div className='text-white'>
-          <h2 className="text-xl font-bold font-[Inter]">{project.title}</h2>
-          <p className="text-white font-[Inter]">{project.description}</p>
+          <h2 className="text-xl font-bold ">{project.title}</h2>
+          <p className="text-white">{project.description}</p>
         </div>
         </div>
         </motion.div>
@@ -86,7 +87,7 @@ const project = () => {
           <div className="bg-[#060416] rounded-xl p-6 max-w-2xl w-full relative flex flex-col justify-center items-center text-center">
             <button
               onClick={closeModal}
-              className="absolute top-2 right-4 text-2xl text-gray-400 hover:text-gray-800 font-[Inter]"
+              className="absolute top-2 right-4 text-2xl text-gray-400 hover:text-gray-800"
             >
               &times;
             </button>
@@ -103,7 +104,7 @@ const project = () => {
               transition={{ duration: 1.2, ease: 'easeInOut' }}
               viewport={{ once: true }}
                 
-                className='text-white flex justify-center font-extrabold text-3xl pb-3 font-[Inter]'>Certification</motion.h2>
+                className='text-white flex justify-center font-extrabold text-3xl pb-3'>Certification</motion.h2>
             </div>
             <motion.div initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -111,8 +112,8 @@ const project = () => {
         viewport={{ once: true }}
             
             className='flex flex-col justify-center items-center pb-6'>
-              <p className='text-base font-base pb-2 text-white font-[Inter]'>Certified Project Management Associate</p>
-              <a download={'https://i.ibb.co/tcZnCM5/08.jpg'} href="" className='font-[Inter] bg-white p-3 w-36 rounded-full text-center font-semibold hover:bg-neutral-300 hover:scale-110 transition ease-in-out delay-150 duration-300'> Download Pdf</a>
+              <p className='text-base font-base pb-2 text-white'>Certified Project Management Associate</p>
+              <a download href={Cert} className='bg-white p-3 w-36 rounded-full text-center font-semibold hover:bg-neutral-300 hover:scale-110 transition ease-in-out delay-150 duration-300'> Download Pdf</a>
             </motion.div>
               
     </div>

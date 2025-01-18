@@ -36,9 +36,9 @@ const contact = () => {
             </button>
             <p className='text-white text-center sm:text-base text-sm font-[Inter]'>Or Message me throught my social media account.</p>
             <div className='flex gap-x-6 justify-center items-center'>
-            <a href="https://www.facebook.com/L4.jhams09" target='_blank'><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Facebook_Logo_2023.png/768px-Facebook_Logo_2023.png" alt="fb" className='w-8 md:w-10 grayscale hover:grayscale-0 cursor-pointer hover:scale-110 transition-all duration-300' /></a>
-            <a href="https://www.instagram.com/jhamsx/" target='_blank'><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1200px-Instagram_icon.png" alt="fb" className='w-8 md:w-10 grayscale hover:grayscale-0 cursor-pointer hover:scale-110 transition-all duration-300' /></a>
-            <a href="https://x.com/Jm_Lars09" target='_blank'><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/X_logo_2023_%28white%29.png/800px-X_logo_2023_%28white%29.png" alt="fb" className='w-8 md:w-10 grayscale hover:grayscale-0 cursor-pointer hover:scale-110 transition-all duration-300' /></a>
+            <a href="https://www.facebook.com/L4.jhams09" target='_blank'><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Facebook_Logo_2023.png/768px-Facebook_Logo_2023.png" alt="fb" className='w-8 md:w-10 lg:grayscale hover:grayscale-0 cursor-pointer hover:scale-110 transition-all duration-300' /></a>
+            <a href="https://www.instagram.com/jhamsx/" target='_blank'><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1200px-Instagram_icon.png" alt="fb" className='w-8 md:w-10 lg:grayscale hover:grayscale-0 cursor-pointer hover:scale-110 transition-all duration-300' /></a>
+            <a href="https://x.com/Jm_Lars09" target='_blank'><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/X_logo_2023_%28white%29.png/800px-X_logo_2023_%28white%29.png" alt="fb" className='w-8 md:w-10 lg:grayscale hover:grayscale-0 cursor-pointer hover:scale-110 transition-all duration-300' /></a>
             </div>
             </motion.div>
         </div>
