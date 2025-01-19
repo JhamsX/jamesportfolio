@@ -50,7 +50,7 @@ const navbar = () => {
         </Link>
         
         <ul class="hidden items-center space-x-5 sm:flex-row sm:gap-x-8 xl:flex lg:flex md:flex font-semibold text-base">
-        <NavLink to="#home" smooth className="hover:scale-110 transition-all ease-in-out delay-200 duration-200 hover:text-blue-400" ><li><a href="#">Home</a></li></NavLink>
+        <NavLink to="/" smooth className="hover:scale-110 transition-all ease-in-out delay-200 duration-200 hover:text-blue-400" ><li><a href="#">Home</a></li></NavLink>
         <NavLink to="#education" smooth className="hover:scale-110 transition-all ease-in-out delay-200 duration-200 hover:text-blue-400"><li><a href="#">Education</a></li></NavLink>
         <NavLink to="#skills" smooth className="hover:scale-110 transition-all ease-in-out delay-200 duration-200 hover:text-blue-400"><li><a href="#">Skills</a></li></NavLink>
         <NavLink to="#project" smooth className="hover:scale-110 transition-all ease-in-out delay-200 duration-200 hover:text-blue-400"><li><a href="#">Projects</a></li></NavLink>
@@ -62,7 +62,7 @@ const navbar = () => {
         <i class="bx bx-menu flex md:hidden cursor-pointer text-4xl" onClick={() => setIsMenuOpen(!isMenuOpen)}></i>
       {isMenuOpen && (
       <div className={'absolute top-20 z-50 left-0 w-full pb-3 bg-black bg-opacity-80 shadow-lg flex-row items-center gap-1 font-semibold text-lg' + (isMenuOpen ? 'block' : 'hidden')}>  
-        <Link to="#home" smooth><li className="list-none w-full text-start p-4 cursor-pointer" onClick={handleLinkClick}><a href="#">Home</a></li></Link>
+        <Link to="/" smooth><li className="list-none w-full text-start p-4 cursor-pointer" onClick={handleLinkClick}><a href="#">Home</a></li></Link>
         <Link to='#education' smooth><li className="list-none w-full text-start p-4 cursor-pointer" onClick={handleLinkClick}>Education</li></Link>
         <Link to="#skills" smooth><li className="list-none w-full text-start p-4 cursor-pointer" onClick={handleLinkClick}><a href="#">Skills</a></li></Link>
         <Link to="#project" smooth><li className="list-none w-full text-start p-4 cursor-pointer" onClick={handleLinkClick}><a href="#">Projects</a></li></Link>

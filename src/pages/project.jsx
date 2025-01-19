@@ -113,7 +113,7 @@ const project = () => {
             
             className='flex flex-col justify-center items-center pb-6'>
               <p className='text-base font-base pb-2 text-white'>Certified Project Management Associate</p>
-              <a download href={Cert} className='bg-white p-3 w-36 rounded-full text-center font-semibold hover:bg-neutral-300 hover:scale-110 transition ease-in-out delay-150 duration-300'> Download Pdf</a>
+              <a download={'https://i.ibb.co/tcZnCM5/08.jpg'} href="" className='bg-white p-3 w-36 rounded-full text-center font-semibold hover:bg-neutral-300 hover:scale-110 transition ease-in-out delay-150 duration-300'> Download Pdf</a>
             </motion.div>
               
     </div>
